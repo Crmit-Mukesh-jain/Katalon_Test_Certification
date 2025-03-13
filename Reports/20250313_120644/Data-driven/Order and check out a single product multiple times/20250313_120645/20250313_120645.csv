@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out a single product multiple times,TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:07:12,13-03-2025 12:18:33,11m - 21.008s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:07:13,13-03-2025 12:08:18,1m - 4.891s,FAILED
+"DATA BINDING - {""firstName"":""katalon"",""lastName"":""customer"",""country"":""Vietnam"",""address"":""290 Nam Ky Khoi Nghia"",""city"":""HCM"",""Phone"":""0123456789"",""companyName"":""KMS"",""postCode"":""70000""}",,,,,,,
+sample.Login.loginIntoApplicationWithGlobalVariable(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:07:14,13-03-2025 12:07:48,33.454s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:07:48,13-03-2025 12:07:49,1.484s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:07:49,13-03-2025 12:07:53,3.165s,PASSED
+sample.Shop.addToCartWithGlobalVariable(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:07:53,13-03-2025 12:08:18,25.618s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:08:18,13-03-2025 12:11:09,2m - 50.742s,FAILED
+"DATA BINDING - {""firstName"":""katalon"",""lastName"":""customer"",""country"":""Vietnam"",""address"":""19 Nguyen Huu Tho"",""city"":""HCM"",""Phone"":""0820200202"",""companyName"":""TDTU"",""postCode"":""70000""}",,,,,,,
+sample.Login.loginIntoApplicationWithGlobalVariable(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:08:18,13-03-2025 12:08:49,31.059s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:08:49,13-03-2025 12:08:50,0.995s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:08:50,13-03-2025 12:08:57,6.324s,PASSED
+sample.Shop.addToCartWithGlobalVariable(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:08:57,13-03-2025 12:09:22,24.931s,PASSED
+"sample.Checkout.CheckoutShop(firstName, lastName, companyName, country, address, city, postCode, Phone)",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:09:22,13-03-2025 12:11:09,1m - 47.396s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:11:09,13-03-2025 12:14:23,3m - 13.651s,FAILED
+"DATA BINDING - {""firstName"":""katalon"",""lastName"":""customer"",""country"":""Vietnam"",""address"":""100 Nguyen Cong Tru"",""city"":""HCM"",""Phone"":""0288229292"",""companyName"":""BKU"",""postCode"":""70000""}",,,,,,,
+sample.Login.loginIntoApplicationWithGlobalVariable(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:11:09,13-03-2025 12:11:50,41.028s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:11:50,13-03-2025 12:11:51,0.922s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:11:51,13-03-2025 12:11:57,6.338s,PASSED
+sample.Shop.addToCartWithGlobalVariable(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:11:57,13-03-2025 12:12:22,24.721s,PASSED
+"sample.Checkout.CheckoutShop(firstName, lastName, companyName, country, address, city, postCode, Phone)",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:12:22,13-03-2025 12:14:23,2m - 0.618s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:14:23,13-03-2025 12:18:33,4m - 10.141s,PASSED
+"DATA BINDING - {""firstName"":""katalon"",""lastName"":""customer"",""country"":""Vietnam"",""address"":""628 Nguyen Hai Phong"",""city"":""HCM"",""Phone"":""0289928289"",""companyName"":""DXC"",""postCode"":""70000""}",,,,,,,
+sample.Login.loginIntoApplicationWithGlobalVariable(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:14:23,13-03-2025 12:14:57,34.151s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:14:57,13-03-2025 12:14:58,1.001s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:14:58,13-03-2025 12:15:02,4.252s,PASSED
+sample.Shop.addToCartWithGlobalVariable(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:15:02,13-03-2025 12:15:23,20.496s,PASSED
+"sample.Checkout.CheckoutShop(firstName, lastName, companyName, country, address, city, postCode, Phone)",TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:15:23,13-03-2025 12:18:15,2m - 52.411s,PASSED
+sample.Login.logoutFromApplication(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:18:15,13-03-2025 12:18:32,16.595s,PASSED
+closeBrowser(),TestCloud - Linux - Firefox 134.0.2,,,13-03-2025 12:18:32,13-03-2025 12:18:33,1.217s,PASSED

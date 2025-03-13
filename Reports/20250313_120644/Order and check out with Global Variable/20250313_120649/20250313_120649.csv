@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out with Global Variable,,,,13-03-2025 12:22:09,13-03-2025 12:28:12,6m - 3.343s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,,,,13-03-2025 12:22:09,13-03-2025 12:25:12,3m - 2.722s,FAILED
+"DATA BINDING - {""(Default) Phone"":""0359912894"",""(Default) postC..."":""70000"",""(Default) first..."":""katalon"",""(Default) city"":""HCM"",""(Default) lastN..."":""customer"",""(Default) addre..."":""119 Nguyen Thi Thap"",""(Default) count..."":""Vietnam"",""(Default) compa..."":""KMS""}",,,,,,,
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,13-03-2025 12:22:10,13-03-2025 12:25:12,3m - 1.648s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product using coupon,,,,13-03-2025 12:25:12,13-03-2025 12:28:12,3m - 0.189s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,13-03-2025 12:25:12,13-03-2025 12:28:12,3m - 0.064s,FAILED
